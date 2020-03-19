@@ -1,0 +1,7 @@
+sD=/data07/app/sxw
+rt=4
+ct=32
+x='<etl><schemas><schema des="mvno_comm2"><tables><table des="b_checkfile_accu_result_bak" file=".*\/b_checkfile_accu_result\.csv" virtual="true" exclusiveColumn=""></table></tables></schema></schemas></etl>'
+eC
+eF
+mdd='[{"host":"10.130.236.65","port":8100,"username":"mvno_comm","pwd":"Comm%123"}]'

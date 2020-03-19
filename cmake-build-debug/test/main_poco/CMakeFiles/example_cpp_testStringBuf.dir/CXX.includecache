@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/james/jameswork/james_clion/testpoco/test/main_poco/testStringBuf.cpp
+iostream
+-
+streambuf
+-
+sstream
+-
+fstream
+-
+string
+-
+cstring
+-
+memory
+-
+thread
+-
+

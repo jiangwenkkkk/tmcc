@@ -1,0 +1,16 @@
+sh=135.127.20.170
+sP=8100
+su=comm
+sp=a#34kl!29F
+dio
+zk='{"zkUrl":"135.125.162.200:10014,135.125.162.201:10014,135.125.162.202:10014","namespace":"udal_cluster/tenant_1","digest":"udal_zk:9222ABC820ADB25CCE75899F235F937E"}'
+cid='/dbproxy_cluster/dbproxy_cluster_0000000506'
+master
+rt=8
+ct=64
+x='<etl><schemas><schema src="comm" des="dump"><tables>\
+<table src="acct_item_group" exclusiveColumn=""></table>\
+</tables></schema></schemas></etl>'
+eC
+eF
+dD=/home/secure/udal/dump/src/data_5

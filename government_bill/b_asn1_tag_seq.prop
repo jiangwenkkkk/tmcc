@@ -1,0 +1,57 @@
+sD=/data07/app/sxw
+rt=4
+ct=32
+x='<etl><schemas><schema des="mvno_comm2"><tables><table des="b_asn1_tag_seq_bak" file=".*\/b_asn1_tag_seq\.csv" virtual="true" exclusiveColumn=""></table></tables></schema></schemas></etl>'
+eC
+eF
+mdd='[{"host":"10.130.236.65","port":8100,"username":"mvno_comm","pwd":"Comm%123"}]'
+
+udal_udal2.prop
+
+myid=/dbproxy_cluster/dbproxy_cluster_0000000056/nodes/node_0000000158
+zkURL=10.130.236.64:2050,10.130.236.65:2050,10.130.236.66:2050
+namespace=udal_cluster/tenant_1
+digest=udal_zk:9222ABC820ADB25CCE75899F235F937E
+
+
+show create table accu_type                            ;
+show create table attr_spec                            ;
+show create table b2m_serv_acct_change                 ;
+show create table b_acct_item_group                    ;
+show create table b_acct_item_group_member             ;
+show create table b_accu_cal_rule                      ;
+show create table b_asn_attr_def                       ;
+show create table b_asn_condition_set                  ;
+show create table b_attribute_format_rule              ;
+show create table b_attribute_format_step              ;
+show create table b_dup_ticket_type                    ;
+show create table b_info_product                       ;
+show create table b_info_product_offer                 ;
+show create table b_long_type_ex                       ;
+show create table b_lte_mapping                        ;
+show create table b_mid_offer_pub                      ;
+show create table b_offer_query_free_accu              ;
+show create table b_parse_rule                         ;
+show create table b_pn_seg_billing                     ;
+show create table b_schedule                           ;
+show create table b_sector_tariff                      ;
+show create table b_trans_peer_param                   ;
+show create table cfg_function_list                    ;
+show create table dest_event_type                      ;
+show create table e_apporition_config                  ;
+show create table e_partition_due                      ;
+show create table event_attr                           ;
+show create table event_pricing_strategy               ;
+show create table formula_list                         ;
+show create table offer                                ;
+show create table offer_accumulator_relation           ;
+show create table pricing_plan                         ;
+show create table pricing_section                      ;
+show create table pricing_unit_convert                 ;
+show create table product                              ;
+show create table product_catalog_item                 ;
+show create table wf_time_plan                         ;
+show create table sync_basic_data_pub                  ;
+show create table b_param_define                       ;
+show create table b_userinfo_process_status            ;
+show create table wf_application                       ;

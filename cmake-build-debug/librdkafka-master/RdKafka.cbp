@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RdKafka"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\librdkafka-master\;CMake Files\librdkafka-master\packaging\;CMake Files\librdkafka-master\packaging\cmake\;CMake Files\librdkafka-master\packaging\cmake\try_compile\;CMake Files\librdkafka-master\src\;CMake Files\librdkafka-master\src-cpp\;CMake Files\librdkafka-master\examples\;CMake Files\librdkafka-master\tests\;CMake Files\test\;CMake Files\test\main_poco\;CMake Files\test\mysql_test\;CMake Files\test\gtest_poco\;CMake Files\test\protobuf\;CMake Files\test\notification_tst\;CMake Files\test\gtestinherit\;CMake Files\test\audit_test\;CMake Files\test_qt\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\opt\;CMake Files\..\..\..\..\..\usr\local\opt\qt5\;CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\;CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.71.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.71.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.71.0\;CMake Files\test_redis\;CMake Files\test_boost\;CMake Files\test_fun\;CMake Files\kafka_test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/librdkafka.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/Makefile&quot;  VERBOSE=1 rdkafka"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/librdkafka.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/Makefile&quot;  VERBOSE=1 rdkafka/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka++">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/librdkafka++.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBRDKAFKACPP_EXPORTS"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/Makefile&quot;  VERBOSE=1 rdkafka++"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka++/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/librdkafka++.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBRDKAFKACPP_EXPORTS"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/Makefile&quot;  VERBOSE=1 rdkafka++/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/src-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_example">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_example/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_consumer_example">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_consumer_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_consumer_example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_consumer_example/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_consumer_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_consumer_example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_example_cpp">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_example_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_example_cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_example_cpp/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_example_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_example_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_simple_producer">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_simple_producer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_simple_producer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_simple_producer/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_simple_producer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_simple_producer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_consumer_example_cpp">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_consumer_example_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_consumer_example_cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_consumer_example_cpp/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_consumer_example_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_consumer_example_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kafkatest_verifiable_client">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/kafkatest_verifiable_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 kafkatest_verifiable_client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kafkatest_verifiable_client/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/kafkatest_verifiable_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 kafkatest_verifiable_client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_performance">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_performance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_performance"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_performance/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/rdkafka_performance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 rdkafka_performance/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_test">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/rdkafka_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/Makefile&quot;  VERBOSE=1 rdkafka_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rdkafka_test/fast">
+				<Option output="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/rdkafka_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src"/>
+					<Add directory="/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/generated/dummy"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/Makefile&quot;  VERBOSE=1 rdkafka_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/james/jameswork/james_clion/testpoco/cmake-build-debug/librdkafka-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/examples/kafkatest_verifiable_client.cpp">
+			<Option target="kafkatest_verifiable_client"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/examples/rdkafka_consumer_example.c">
+			<Option target="rdkafka_consumer_example"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/examples/rdkafka_consumer_example.cpp">
+			<Option target="rdkafka_consumer_example_cpp"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/examples/rdkafka_example.c">
+			<Option target="rdkafka_example"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/examples/rdkafka_example.cpp">
+			<Option target="rdkafka_example_cpp"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/examples/rdkafka_performance.c">
+			<Option target="rdkafka_performance"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/examples/rdkafka_simple_producer.c">
+			<Option target="rdkafka_simple_producer"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/ConfImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/ConsumerImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/HandleImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/KafkaConsumerImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/MessageImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/MetadataImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/ProducerImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/QueueImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/RdKafka.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/TopicImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/TopicPartitionImpl.cpp">
+			<Option target="rdkafka++"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/crc32c.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/crc32c.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/lz4.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/lz4.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/lz4frame.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/lz4frame.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/lz4hc.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/lz4hc.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdaddr.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdaddr.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdavl.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdavl.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdbuf.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdbuf.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdcrc32.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdcrc32.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rddl.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rddl.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdgz.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdgz.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_admin.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_admin.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_assignor.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_assignor.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_aux.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_aux.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_background.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_broker.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_broker.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_buf.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_buf.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_cgrp.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_cgrp.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_conf.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_conf.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_event.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_event.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_feature.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_feature.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_header.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_header.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_interceptor.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_interceptor.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_lz4.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_lz4.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_metadata.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_metadata.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_metadata_cache.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_msg.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_msg.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_msgset_reader.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_msgset_writer.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_offset.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_offset.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_op.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_op.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_partition.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_partition.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_pattern.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_pattern.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_plugin.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_plugin.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_queue.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_queue.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_range_assignor.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_request.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_request.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_roundrobin_assignor.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_sasl.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_sasl.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_sasl_cyrus.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_sasl_plain.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_subscription.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_timer.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_timer.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_topic.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_topic.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_transport.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdkafka_transport.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdlist.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdlist.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdlog.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdlog.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdmurmur2.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdmurmur2.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdports.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdports.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdrand.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdrand.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdregex.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdregex.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdstring.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdstring.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdunittest.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdunittest.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdvarint.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/rdvarint.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/snappy.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/snappy.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/tinycthread.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/tinycthread.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/xxhash.c">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/xxhash.h">
+			<Option target="rdkafka"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0000-unittests.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0001-multiobj.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0002-unkpart.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0003-msgmaxsize.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0004-conf.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0005-order.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0006-symbols.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0007-autotopic.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0008-reqacks.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0011-produce_batch.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0012-produce_consume.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0013-null-msgs.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0014-reconsume-191.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0015-offset_seeks.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0017-compression.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0018-cgrp_term.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0019-list_groups.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0020-destroy_hang.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0021-rkt_destroy.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0022-consume_batch.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0025-timers.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0026-consume_pause.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0028-long_topicnames.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0029-assign_offset.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0030-offset_commit.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0031-get_offsets.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0033-regex_subscribe.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0034-offset_reset.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0035-api_version.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0036-partial_fetch.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0037-destroy_hang_local.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0038-performance.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0039-event.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0040-io_event.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0041-fetch_max_bytes.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0042-many_topics.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0043-no_connection.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0044-partition_cnt.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0045-subscribe_update.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0046-rkt_cache.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0047-partial_buf_tmout.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0048-partitioner.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0049-consume_conn_close.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0050-subscribe_adds.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0051-assign_adds.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0052-msg_timestamps.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0053-stats_cb.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0054-offset_time.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0055-producer_latency.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0056-balanced_group_mt.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0057-invalid_topic.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0058-log.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0059-bsearch.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0060-op_prio.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0061-consumer_lag.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0062-stats_event.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0063-clusterid.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0064-interceptors.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0065-yield.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0066-plugins.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0067-empty_topic.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0068-produce_timeout.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0069-consumer_add_parts.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0070-null_empty.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0072-headers_ut.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0073-headers.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0074-producev.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0075-retry.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0076-produce_retry.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0077-compaction.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0078-c_from_cpp.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0079-fork.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0080-admin_ut.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0081-admin.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0082-fetch_max_bytes.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/0083-cb_event.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/8000-idle.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/sockem.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/sockem.h">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/test.c">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/test.h">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/testcpp.cpp">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/testcpp.h">
+			<Option target="rdkafka_test"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\librdkafka-master\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/config.h.in">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/try_compile/atomic_32_test.c">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\try_compile\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/try_compile/atomic_64_test.c">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\try_compile\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/try_compile/dlopen_test.c">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\try_compile\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/try_compile/libsasl2_test.c">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\try_compile\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/try_compile/rdkafka_setup.cmake">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\try_compile\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/try_compile/regex_test.c">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\try_compile\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/packaging/cmake/try_compile/strndup_test.c">
+			<Option virtualFolder="CMake Files\librdkafka-master\packaging\cmake\try_compile\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\librdkafka-master\src\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/src-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\librdkafka-master\src-cpp\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\librdkafka-master\examples\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/librdkafka-master/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\librdkafka-master\tests\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test/main_poco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\main_poco\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test/mysql_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\mysql_test\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test/gtest_poco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\gtest_poco\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\protobuf\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test/notification_tst/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\notification_tst\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test/gtestinherit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\gtestinherit\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test/audit_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\audit_test\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test_qt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test_qt\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/opt/qt5/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opt\qt5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_date_time-1.71.0/boost_date_time-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_date_time-1.71.0/boost_date_time-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_date_time-1.71.0/libboost_date_time-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_date_time-1.71.0/libboost_date_time-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_date_time-1.71.0/libboost_date_time-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_date_time-1.71.0/libboost_date_time-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_filesystem-1.71.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_filesystem-1.71.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_iostreams-1.71.0/boost_iostreams-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_iostreams-1.71.0/boost_iostreams-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_iostreams-1.71.0/libboost_iostreams-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_iostreams-1.71.0/libboost_iostreams-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_iostreams-1.71.0/libboost_iostreams-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/../../../../../usr/local/lib/cmake/boost_iostreams-1.71.0/libboost_iostreams-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_iostreams-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test_redis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test_redis\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test_boost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test_boost\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/test_fun/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test_fun\"/>
+		</Unit>
+		<Unit filename="/Users/james/jameswork/james_clion/testpoco/kafka_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\kafka_test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

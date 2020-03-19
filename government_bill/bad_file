@@ -1,0 +1,18 @@
+421|359|13|0|1|contentType--取值0：N/A（无效）
+1：Browsing Service（浏览业务）
+2：MMS（多媒体消息业务）
+3：KJAVA（KJAVA下载业务）|
+422|359|13|1|1|contentType--取值0：N/A（无效）
+1：Browsing Service（浏览业务）
+2：MMS（多媒体消息业务）
+3：KJAVA（KJAVA下载业务）|
+423|359|13|2|1|contentType--取值0：N/A（无效）
+1：Browsing Service（浏览业务）
+2：MMS（多媒体消息业务）
+3：KJAVA（KJAVA下载业务）|
+424|359|13|3|1|contentType--取值0：N/A（无效）
+1：Browsing Service（浏览业务）
+2：MMS（多媒体消息业务）
+3：KJAVA（KJAVA下载业务）|
+425|360|14|0|1|accessPointName--(0)非空，第一个标签不可为"rac","lac","sgsn"－非空|
+|

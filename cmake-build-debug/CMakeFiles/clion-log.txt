@@ -1,0 +1,118 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=g++ -DSTAIC_CONCPP=1 -G "CodeBlocks - Unix Makefiles" /Users/james/jameswork/james_clion/testpoco
+/usr/local/Cellar/poco/1.9.4/lib/libPocoNet.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoUtil.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoJSON.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoXML.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoFoundation.dylibpthread
+catch_test.cpp
+example_cpp_catch_test
+catch_test.cpp
+define_test.cpp
+example_cpp_define_test
+define_test.cpp
+dynamic_test_is_null.cpp
+example_cpp_dynamic_test_is_null
+dynamic_test_is_null.cpp
+notification_test.cpp
+example_cpp_notification_test
+notification_test.cpp
+shared_memory_test.cpp
+example_cpp_shared_memory_test
+shared_memory_test.cpp
+stream_t.cpp
+example_cpp_stream_t
+stream_t.cpp
+testStringBuf.cpp
+example_cpp_testStringBuf
+testStringBuf.cpp
+test_again.cpp
+example_cpp_test_again
+test_again.cpp
+test_change_memory.cpp
+example_cpp_test_change_memory
+test_change_memory.cpp
+test_no_name_memory.cpp
+example_cpp_test_no_name_memory
+test_no_name_memory.cpp
+test_open_a.cpp
+example_cpp_test_open_a
+test_open_a.cpp
+test_opne.cpp
+example_cpp_test_opne
+test_opne.cpp
+test_reference.cpp
+example_cpp_test_reference
+test_reference.cpp
+timer_test.cpp
+example_cpp_timer_test
+timer_test.cpp
+tmp.cpp
+example_cpp_tmp
+tmp.cpp
+void_to_obj.cpp
+example_cpp_void_to_obj
+void_to_obj.cpp
+multi_request_mysql.cpp
+example_cpp_multi_request_mysql
+multi_request_mysql.cpp
+mysql_test.cpp
+example_cpp_mysql_test
+mysql_test.cpp
+/usr/local/Cellar/poco/1.9.4/lib/libPocoNet.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoUtil.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoJSON.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoXML.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoFoundation.dylibpthread
+/usr/local/Cellar/poco/1.9.4/lib/libPocoNet.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoUtil.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoJSON.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoXML.dylib/usr/local/Cellar/poco/1.9.4/lib/libPocoFoundation.dylibpthread
+-- Boost 1.36.0 found.
+CMake Warning at /usr/local/lib/cmake/boost_date_time-1.71.0/libboost_date_time-variant-shared.cmake:59 (message):
+  Target Boost::date_time already has an imported location
+  '/usr/local/lib/libboost_date_time-mt.dylib', which will be overwritten
+  with '/usr/local/lib/libboost_date_time.dylib'
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/boost_date_time-1.71.0/boost_date_time-config.cmake:43 (include)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/FindBoost.cmake:266 (find_package)
+  test_boost/CMakeLists.txt:2 (find_package)
+
+
+CMake Warning at /usr/local/lib/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-shared.cmake:59 (message):
+  Target Boost::filesystem already has an imported location
+  '/usr/local/lib/libboost_filesystem-mt.dylib', which will be overwritten
+  with '/usr/local/lib/libboost_filesystem.dylib'
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/boost_filesystem-1.71.0/boost_filesystem-config.cmake:43 (include)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/FindBoost.cmake:266 (find_package)
+  test_boost/CMakeLists.txt:2 (find_package)
+
+
+CMake Warning at /usr/local/lib/cmake/boost_iostreams-1.71.0/libboost_iostreams-variant-shared.cmake:59 (message):
+  Target Boost::iostreams already has an imported location
+  '/usr/local/lib/libboost_iostreams-mt.dylib', which will be overwritten
+  with '/usr/local/lib/libboost_iostreams.dylib'
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/boost_iostreams-1.71.0/boost_iostreams-config.cmake:43 (include)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package)
+  /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/FindBoost.cmake:266 (find_package)
+  test_boost/CMakeLists.txt:2 (find_package)
+
+
+-- Boost 1.56 found.
+-- Found Boost components:
+   date_time;filesystem;iostreams
+add_redis.cpp
+example_cpp_add_redis
+add_redis.cpp
+local_redis.cpp
+example_cpp_local_redis
+local_redis.cpp
+redis_make.cpp
+example_cpp_redis_make
+redis_make.cpp
+qt_a.cpp
+example_cpp_qt_a
+qt_a.cpp
+tmpp_test.cpp
+example_cpp_tmpp_test
+tmpp_test.cpp
+-- Checking for module 'libsasl2'
+--   No package 'libsasl2' found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/james/jameswork/james_clion/testpoco/cmake-build-debug

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/james/jameswork/james_clion/testpoco/test/main_poco/catch_test.cpp
+iostream
+-
+exception
+-
+stdexcept
+-
+

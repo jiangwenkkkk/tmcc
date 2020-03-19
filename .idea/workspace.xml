@@ -1,0 +1,3140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="testpoco" targetName="testchar" />
+      <config projectName="testpoco" targetName="example_cpp_notification_test" />
+      <config projectName="testpoco" targetName="example_cpp_test_opne" />
+      <config projectName="testpoco" targetName="test_servera" />
+      <config projectName="testpoco" targetName="test_muti" />
+      <config projectName="testpoco" targetName="example_cpp_test_change_memory" />
+      <config projectName="testpoco" targetName="example_cpp_test_no_name_memory" />
+      <config projectName="testpoco" targetName="kafka_test_p" />
+      <config projectName="testpoco" targetName="example_cpp_test_again" />
+      <config projectName="testpoco" targetName="test_protobuf" />
+      <config projectName="testpoco" targetName="testa_fork" />
+      <config projectName="testpoco" targetName="testcplus" />
+      <config projectName="testpoco" targetName="example_cpp_add_redis" />
+      <config projectName="testpoco" targetName="example_cpp_test_reference" />
+      <config projectName="testpoco" targetName="kafkatest_verifiable_client" />
+      <config projectName="testpoco" targetName="abcdef" />
+      <config projectName="testpoco" targetName="example_cpp_catch_test" />
+      <config projectName="testpoco" targetName="example_cpp_redis_make" />
+      <config projectName="testpoco" targetName="rdkafka_performance" />
+      <config projectName="testpoco" targetName="receive_message" />
+      <config projectName="testpoco" targetName="abcd" />
+      <config projectName="testpoco" targetName="example_cpp_stream_t" />
+      <config projectName="testpoco" targetName="abcb" />
+      <config projectName="testpoco" targetName="example_cpp_test_open_a" />
+      <config projectName="testpoco" targetName="rdkafka++" />
+      <config projectName="testpoco" targetName="example_cpp_void_to_obj" />
+      <config projectName="testpoco" targetName="kafka_test_c_two" />
+      <config projectName="testpoco" targetName="rdkafka_consumer_example" />
+      <config projectName="testpoco" targetName="example_cpp_tmp" />
+      <config projectName="testpoco" targetName="example_cpp_define_test" />
+      <config projectName="testpoco" targetName="example_cpp_multi_request_mysql" />
+      <config projectName="testpoco" targetName="color" />
+      <config projectName="testpoco" targetName="abcde" />
+      <config projectName="testpoco" targetName="example_cpp_dynamic_test_is_null" />
+      <config projectName="testpoco" targetName="foo" />
+      <config projectName="testpoco" targetName="rdkafka_example_cpp" />
+      <config projectName="testpoco" targetName="kafka_test_c" />
+      <config projectName="testpoco" targetName="example_cpp_mysql_test" />
+      <config projectName="testpoco" targetName="abc" />
+      <config projectName="testpoco" targetName="example_cpp_timer_test" />
+      <config projectName="testpoco" targetName="example_cpp_local_redis" />
+      <config projectName="testpoco" targetName="rdkafka_example" />
+      <config projectName="testpoco" targetName="rdkafka_test" />
+      <config projectName="testpoco" targetName="ab" />
+      <config projectName="testpoco" targetName="rdkafka" />
+      <config projectName="testpoco" targetName="opencv_samples_cpp" />
+      <config projectName="testpoco" targetName="example_cpp_shared_memory_test" />
+      <config projectName="testpoco" targetName="example_cpp_qt_a" />
+      <config projectName="testpoco" targetName="testpoco" />
+      <config projectName="testpoco" targetName="example_cpp_tmpp_test" />
+      <config projectName="testpoco" targetName="example_cpp_testStringBuf" />
+      <config projectName="testpoco" targetName="rdkafka_consumer_example_cpp" />
+      <config projectName="testpoco" targetName="send_message" />
+      <config projectName="testpoco" targetName="rdkafka_simple_producer" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DSTAIC_CONCPP=1">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="CMAKE_PREFIX_PATH" value="/usr/local/opt/qt5/lib/cmake" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbd5f700-1e51-4c90-bfe7-4950a89a4177" name="Default" comment="d;" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55525">
+              <caret line="2221" selection-start-line="2221" selection-end-line="2221" />
+              <folding>
+                <element signature="e#80419#80681#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/gtest_poco/char_t.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2800">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/gtest_poco/leet_code_learn.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/limits.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1750">
+              <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shell/result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144275">
+              <caret line="5771" column="25" selection-start-line="5771" selection-start-column="25" selection-end-line="5771" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/gtestinherit/time_test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/main_poco/timer_test.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/gtest_poco/timestamp_test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1025">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/gtestinherit/TimeStampTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1800">
+              <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shell/tmp.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="HTML File" />
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>conf-&gt;set</find>
+      <find>poll</find>
+      <find>_helpRequested</find>
+      <find>cpp_samples</find>
+      <find>example_cpp</find>
+      <find>ocv_define_sample</find>
+      <find>free</find>
+      <find>new_note</find>
+      <find>edit_note</find>
+      <find>delete_note</find>
+      <find>list</find>
+      <find>stmt</find>
+      <find>kafkaconsumer</find>
+      <find>consumer</find>
+      <find>RdKafka::KafkaConsumer</find>
+      <find>mode</find>
+      <find>&quot;group.id&quot; must be configured</find>
+      <find>group</find>
+      <find>describe_groups</find>
+      <find>testNumber</find>
+      <find>_connected</find>
+      <find>delKey</find>
+      <find>RegularExpression</find>
+      <find>find</find>
+      <find>source</find>
+      <find>void ChannelTest::</find>
+      <find>utime</find>
+      <find>( 0.*)</find>
+      <find>( 0\n)</find>
+      <find>(  0\n)</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/librdkafka-master/build</dir>
+      <dir>$PROJECT_DIR$/librdkafka-master</dir>
+      <dir>$PROJECT_DIR$/</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/main_poco/testStringBuf.cpp" />
+        <option value="$PROJECT_DIR$/test/main_poco/timer_test.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/iconv.hpp" />
+        <option value="$PROJECT_DIR$/test/mysql_test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/mysql_test/mysql_test.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/encode_test.cpp" />
+        <option value="$PROJECT_DIR$/kafka_test/kafka_test.cpp" />
+        <option value="$PROJECT_DIR$/kafka_test/kafka_test_two.cpp" />
+        <option value="$PROJECT_DIR$/kafka_test/kafka_test_p.cpp" />
+        <option value="$PROJECT_DIR$/kafka_test/kafka_test_c_two.cpp" />
+        <option value="$PROJECT_DIR$/kafka_test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/json_test.cpp" />
+        <option value="/usr/local/opt/qt5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake" />
+        <option value="$PROJECT_DIR$/test/gtestinherit/gtestex.h" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/LoggerSystem.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/gtestinherit/redis_test.cpp" />
+        <option value="$PROJECT_DIR$/shell/cloud_get_bill_from_file.sh" />
+        <option value="$PROJECT_DIR$/test/gtestinherit/test_main.cpp" />
+        <option value="$PROJECT_DIR$/test/gtestinherit/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/gtestinherit/auditMain.h" />
+        <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/audit_test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/audit_test/auditMain.h" />
+        <option value="$PROJECT_DIR$/test/audit_test/auditMain.cpp" />
+        <option value="$PROJECT_DIR$/test/gtestinherit/TimeStampTest.cpp" />
+        <option value="$PROJECT_DIR$/test/audit_test/test.cpp" />
+        <option value="$PROJECT_DIR$/test/gtestinherit/LoggerSystem.h" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/redis_test.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/test_vtk.cpp" />
+        <option value="$PROJECT_DIR$/test/main_poco/stream_t.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/t_ostringstream.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/channel_t.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/hex_t.cpp" />
+        <option value="$PROJECT_DIR$/test/ls_cat_file.sh" />
+        <option value="$PROJECT_DIR$/shell/mv_audit_file.sh" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/test_file.cpp" />
+        <option value="$PROJECT_DIR$/poco/active.puml" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/timestamp_test.cpp" />
+        <option value="$PROJECT_DIR$/test/gtestinherit/time_test.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/DateTime_test.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/test_str.cpp" />
+        <option value="$PROJECT_DIR$/shell/countip.sh" />
+        <option value="$PROJECT_DIR$/shell/result.txt" />
+        <option value="$PROJECT_DIR$/shell/choseip.sh" />
+        <option value="$PROJECT_DIR$/shell/tmp.sql" />
+        <option value="$PROJECT_DIR$/shell/make_sql.sh" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/char_t.cpp" />
+        <option value="$PROJECT_DIR$/test/gtest_poco/leet_code_learn.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="453" />
+    <option name="y" value="-1417" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+              <item name="shell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="gtest_poco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="gtestinherit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+              <item name="test_boost" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+              <item name="test_fun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+              <item name="test_qt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testpoco" type="462c0819:PsiDirectoryNode" />
+              <item name="test_redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="i386" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="c++" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testpoco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="c++" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="rdkaf&#9;FILE&#9;file:///Users/james/jameswork/james/testpoco/librdkafka-master/src-cpp/rdkafkacpp.h&#10;cppcafka&#9;null&#9;null&#10;rdkafkacpp&#9;FILE&#9;file:///Users/james/jameswork/james/testpoco/librdkafka-master/src-cpp/rdkafkacpp.h" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/gtestinherit" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Documents/结算值班/sxw/acct_I" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/gtestinherit" />
+      <recent name="$PROJECT_DIR$/test/audit_test" />
+      <recent name="$PROJECT_DIR$/test/gtest_poco" />
+      <recent name="$PROJECT_DIR$/test/notification_tst" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/audit_test" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/test/main_poco" />
+      <recent name="$PROJECT_DIR$/test/protobuf" />
+      <recent name="$PROJECT_DIR$/test/gtest_poco" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.leet_code.reverse_int">
+    <configuration name="countip" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="testpoco" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shell" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shell/countip.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_sql" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="testpoco" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shell" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shell/make_sql.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="date_t.t" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="ab" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="ab" TEST_CLASS="date_t" TEST_METHOD="t" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leet_code.reverse_int" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="ab" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="ab" TEST_CLASS="leet_code" TEST_METHOD="reverse_int" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="str_t.split_str" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="ab" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="ab" TEST_CLASS="str_t" TEST_METHOD="split_str" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="testpoco" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="abc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="abc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abcb" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="abcb" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="abcb">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abcd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="abcd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="abcd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abcde" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="abcde" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="abcde">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abcdef" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="abcdef" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="abcdef">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="color" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="color" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="color">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_add_redis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_add_redis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_add_redis">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_catch_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_catch_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_catch_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_define_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_define_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_define_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_dynamic_test_is_null" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_dynamic_test_is_null" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_dynamic_test_is_null">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_local_redis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_local_redis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_local_redis">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_multi_request_mysql" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_multi_request_mysql" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_multi_request_mysql">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_mysql_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_mysql_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_mysql_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_notification_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_notification_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_notification_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_qt_a" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_qt_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_qt_a">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_redis_make" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_redis_make" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_redis_make">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_shared_memory_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_shared_memory_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_shared_memory_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_stream_t" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_stream_t" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_stream_t">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_testStringBuf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_testStringBuf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_testStringBuf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_test_again" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_test_again" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_test_again">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_test_change_memory" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_test_change_memory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_test_change_memory">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_test_no_name_memory" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_test_no_name_memory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_test_no_name_memory">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_test_open_a" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_test_open_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_test_open_a">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_test_opne" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_test_opne" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_test_opne">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_test_protobuf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_test_protobuf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_test_protobuf">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="/usr/local/lib:$LD_LIBRARY_PATH" />
+      </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_test_reference" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_test_reference" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_test_reference">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_timer_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_timer_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_timer_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_tmp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_tmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_tmp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_tmpp_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_tmpp_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_tmpp_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example_cpp_void_to_obj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="example_cpp_void_to_obj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="example_cpp_void_to_obj">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="foo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="foo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="foo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kafka_test" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--topic 1008_distribute --broker-list 10.128.117.19:8091 --value-prefix abc --group-id 12" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="kafka_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="kafka_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kafka_test_c" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS=" --topic 1008_distribute --broker-list 10.128.117.19:8091 --value-prefix abc --group-id 12" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="kafka_test_c_two" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="kafka_test_c_two">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kafka_test_c_two" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS=" --topic 1008_distribute --broker-list 10.128.117.19:8091 --value-prefix abc --group-id 13" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="kafka_test_c_two" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="kafka_test_c_two">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kafka_test_p" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS=" --topic 1008_distribute --broker-list 10.128.117.19:8091 --value-prefix abc" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="kafka_test_p" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="kafka_test_p">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kafkatest_verifiable_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="kafkatest_verifiable_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="kafkatest_verifiable_client">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opencv_samples_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="opencv_samples_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka++" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka++" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka_consumer_example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka_consumer_example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="rdkafka_consumer_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka_consumer_example_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka_consumer_example_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="rdkafka_consumer_example_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka_example" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka_example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="rdkafka_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka_example_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka_example_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="rdkafka_example_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka_performance" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka_performance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="rdkafka_performance">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka_simple_producer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka_simple_producer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="rdkafka_simple_producer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rdkafka_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="rdkafka_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="rdkafka_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="receive_message" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="receive_message" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="receive_message">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="send_message" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="send_message" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="send_message">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_muti" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="test_muti" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="test_muti">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_protobuf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="test_protobuf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="test_protobuf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_servera" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="test_servera" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="test_servera">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testa_fork" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="testa_fork" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="testa_fork">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testchar" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="testchar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="testchar">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testpoco" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testpoco" TARGET_NAME="testpoco" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testpoco" RUN_TARGET_NAME="testpoco">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Bash.countip" />
+      <item itemvalue="Bash.make_sql" />
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.abc" />
+      <item itemvalue="CMake Application.abcb" />
+      <item itemvalue="CMake Application.abcd" />
+      <item itemvalue="CMake Application.abcde" />
+      <item itemvalue="CMake Application.abcdef" />
+      <item itemvalue="CMake Application.color" />
+      <item itemvalue="CMake Application.example_cpp_add_redis" />
+      <item itemvalue="CMake Application.example_cpp_catch_test" />
+      <item itemvalue="CMake Application.example_cpp_define_test" />
+      <item itemvalue="CMake Application.example_cpp_dynamic_test_is_null" />
+      <item itemvalue="CMake Application.example_cpp_local_redis" />
+      <item itemvalue="CMake Application.example_cpp_multi_request_mysql" />
+      <item itemvalue="CMake Application.example_cpp_mysql_test" />
+      <item itemvalue="CMake Application.example_cpp_notification_test" />
+      <item itemvalue="CMake Application.example_cpp_qt_a" />
+      <item itemvalue="CMake Application.example_cpp_redis_make" />
+      <item itemvalue="CMake Application.example_cpp_shared_memory_test" />
+      <item itemvalue="CMake Application.example_cpp_stream_t" />
+      <item itemvalue="CMake Application.example_cpp_testStringBuf" />
+      <item itemvalue="CMake Application.example_cpp_test_again" />
+      <item itemvalue="CMake Application.example_cpp_test_change_memory" />
+      <item itemvalue="CMake Application.example_cpp_test_no_name_memory" />
+      <item itemvalue="CMake Application.example_cpp_test_open_a" />
+      <item itemvalue="CMake Application.example_cpp_test_opne" />
+      <item itemvalue="CMake Application.example_cpp_test_protobuf" />
+      <item itemvalue="CMake Application.example_cpp_test_reference" />
+      <item itemvalue="CMake Application.example_cpp_timer_test" />
+      <item itemvalue="CMake Application.example_cpp_tmp" />
+      <item itemvalue="CMake Application.example_cpp_tmpp_test" />
+      <item itemvalue="CMake Application.example_cpp_void_to_obj" />
+      <item itemvalue="CMake Application.foo" />
+      <item itemvalue="CMake Application.kafka_test" />
+      <item itemvalue="CMake Application.kafka_test_c" />
+      <item itemvalue="CMake Application.kafka_test_c_two" />
+      <item itemvalue="CMake Application.kafka_test_p" />
+      <item itemvalue="CMake Application.kafkatest_verifiable_client" />
+      <item itemvalue="CMake Application.opencv_samples_cpp" />
+      <item itemvalue="CMake Application.rdkafka" />
+      <item itemvalue="CMake Application.rdkafka++" />
+      <item itemvalue="CMake Application.rdkafka_consumer_example" />
+      <item itemvalue="CMake Application.rdkafka_consumer_example_cpp" />
+      <item itemvalue="CMake Application.rdkafka_example" />
+      <item itemvalue="CMake Application.rdkafka_example_cpp" />
+      <item itemvalue="CMake Application.rdkafka_performance" />
+      <item itemvalue="CMake Application.rdkafka_simple_producer" />
+      <item itemvalue="CMake Application.rdkafka_test" />
+      <item itemvalue="CMake Application.receive_message" />
+      <item itemvalue="CMake Application.send_message" />
+      <item itemvalue="CMake Application.test_muti" />
+      <item itemvalue="CMake Application.test_protobuf" />
+      <item itemvalue="CMake Application.test_servera" />
+      <item itemvalue="CMake Application.testa_fork" />
+      <item itemvalue="CMake Application.testchar" />
+      <item itemvalue="CMake Application.testpoco" />
+      <item itemvalue="Google Test.date_t.t" />
+      <item itemvalue="Google Test.leet_code.reverse_int" />
+      <item itemvalue="Google Test.str_t.split_str" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.leet_code.reverse_int" />
+        <item itemvalue="Bash.make_sql" />
+        <item itemvalue="Bash.countip" />
+        <item itemvalue="Google Test.date_t.t" />
+        <item itemvalue="Google Test.str_t.split_str" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",KIND,INHERITORS_AND_CATEGORIES,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbd5f700-1e51-4c90-bfe7-4950a89a4177" name="Default" comment="" />
+      <created>1530927548249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530927548249</updated>
+      <workItem from="1530927549959" duration="5128000" />
+      <workItem from="1530933023261" duration="294000" />
+      <workItem from="1530933339920" duration="3904000" />
+      <workItem from="1531064651454" duration="598000" />
+      <workItem from="1531365776688" duration="29000" />
+      <workItem from="1533386010837" duration="5379000" />
+      <workItem from="1533431206314" duration="1818000" />
+      <workItem from="1533450013822" duration="3477000" />
+      <workItem from="1533457856562" duration="413000" />
+      <workItem from="1533536083953" duration="1606000" />
+      <workItem from="1533547130877" duration="17659000" />
+      <workItem from="1533696495574" duration="591000" />
+      <workItem from="1533729217456" duration="2932000" />
+      <workItem from="1534126927635" duration="5815000" />
+      <workItem from="1534148328463" duration="7149000" />
+      <workItem from="1534216607898" duration="4750000" />
+      <workItem from="1535013193785" duration="46000" />
+      <workItem from="1539742744881" duration="676000" />
+      <workItem from="1539911571983" duration="608000" />
+      <workItem from="1541647021393" duration="1050000" />
+      <workItem from="1541661452625" duration="382000" />
+      <workItem from="1541813427595" duration="13000" />
+      <workItem from="1542332970173" duration="15000" />
+      <workItem from="1542336981859" duration="123000" />
+      <workItem from="1544332189750" duration="644000" />
+      <workItem from="1544499136200" duration="34000" />
+      <workItem from="1544664427220" duration="651000" />
+      <workItem from="1544691989363" duration="1436000" />
+      <workItem from="1544695937104" duration="258000" />
+      <workItem from="1546159374820" duration="30127000" />
+      <workItem from="1546485551482" duration="2416000" />
+      <workItem from="1546567020612" duration="50000" />
+      <workItem from="1546917402960" duration="941000" />
+      <workItem from="1547870192255" duration="168000" />
+      <workItem from="1547870909061" duration="3448000" />
+      <workItem from="1547899464451" duration="1480000" />
+      <workItem from="1547962209260" duration="3678000" />
+      <workItem from="1547975645954" duration="688000" />
+      <workItem from="1547990868833" duration="792000" />
+      <workItem from="1547993350311" duration="323000" />
+      <workItem from="1548991655147" duration="6539000" />
+      <workItem from="1549009738189" duration="2276000" />
+      <workItem from="1549158188375" duration="1376000" />
+      <workItem from="1549255494899" duration="1108000" />
+      <workItem from="1549775255616" duration="626000" />
+      <workItem from="1549797219938" duration="4940000" />
+      <workItem from="1549964227508" duration="449000" />
+      <workItem from="1550106894808" duration="4967000" />
+      <workItem from="1550194981355" duration="16834000" />
+      <workItem from="1550452402550" duration="27421000" />
+      <workItem from="1550638034010" duration="3357000" />
+      <workItem from="1550670151159" duration="15578000" />
+      <workItem from="1550806358616" duration="454000" />
+      <workItem from="1550827400012" duration="644000" />
+      <workItem from="1550883705220" duration="17595000" />
+      <workItem from="1550970264632" duration="24399000" />
+      <workItem from="1551054746330" duration="15217000" />
+      <workItem from="1551140677275" duration="13741000" />
+      <workItem from="1551423191275" duration="3202000" />
+      <workItem from="1551538668586" duration="66000" />
+      <workItem from="1551664994247" duration="2502000" />
+      <workItem from="1551691594701" duration="1440000" />
+      <workItem from="1551794630292" duration="653000" />
+      <workItem from="1551836785726" duration="494000" />
+      <workItem from="1552099217520" duration="4947000" />
+      <workItem from="1552201173606" duration="684000" />
+      <workItem from="1552835616837" duration="744000" />
+      <workItem from="1553304547776" duration="1858000" />
+      <workItem from="1553338374964" duration="643000" />
+      <workItem from="1553487940876" duration="283000" />
+      <workItem from="1555034170667" duration="1245000" />
+      <workItem from="1555054051595" duration="1780000" />
+      <workItem from="1555145017901" duration="1138000" />
+      <workItem from="1555225394518" duration="2305000" />
+      <workItem from="1555228147296" duration="1330000" />
+      <workItem from="1555292289710" duration="10434000" />
+      <workItem from="1555470804663" duration="1292000" />
+      <workItem from="1555484811104" duration="23745000" />
+      <workItem from="1555588575779" duration="540000" />
+      <workItem from="1555914628972" duration="375000" />
+      <workItem from="1556072131678" duration="3321000" />
+      <workItem from="1556440922401" duration="9119000" />
+      <workItem from="1556461997269" duration="2301000" />
+      <workItem from="1556505016139" duration="4072000" />
+      <workItem from="1556687048353" duration="1365000" />
+      <workItem from="1556707893922" duration="5397000" />
+      <workItem from="1556854440410" duration="4041000" />
+      <workItem from="1557197451004" duration="346000" />
+      <workItem from="1557199387651" duration="6664000" />
+      <workItem from="1557279869703" duration="1655000" />
+      <workItem from="1557307245951" duration="466000" />
+      <workItem from="1557470480300" duration="1359000" />
+      <workItem from="1557474122280" duration="5071000" />
+      <workItem from="1557575802470" duration="225000" />
+      <workItem from="1557666787249" duration="2716000" />
+      <workItem from="1557678206552" duration="9840000" />
+      <workItem from="1557742806195" duration="3463000" />
+      <workItem from="1557798415288" duration="1352000" />
+      <workItem from="1557800233426" duration="1838000" />
+      <workItem from="1557804261788" duration="1956000" />
+      <workItem from="1557820825861" duration="179000" />
+      <workItem from="1557821335741" duration="25000" />
+      <workItem from="1557821471913" duration="22000" />
+      <workItem from="1557821835180" duration="406000" />
+      <workItem from="1557848293846" duration="795000" />
+      <workItem from="1557932621087" duration="1752000" />
+      <workItem from="1558011637502" duration="1538000" />
+      <workItem from="1558055729189" duration="482000" />
+      <workItem from="1558060965111" duration="1397000" />
+      <workItem from="1558075842868" duration="5495000" />
+      <workItem from="1558173998728" duration="14594000" />
+      <workItem from="1558314640474" duration="2088000" />
+      <workItem from="1558422238280" duration="1043000" />
+      <workItem from="1558425713997" duration="1182000" />
+      <workItem from="1558445538590" duration="271000" />
+      <workItem from="1558488335758" duration="2646000" />
+      <workItem from="1558508263911" duration="4039000" />
+      <workItem from="1558532033623" duration="3505000" />
+      <workItem from="1558537560866" duration="115000" />
+      <workItem from="1558537871200" duration="952000" />
+      <workItem from="1558574868494" duration="5000" />
+      <workItem from="1558614031308" duration="6090000" />
+      <workItem from="1558661323600" duration="17000" />
+      <workItem from="1558687091805" duration="258000" />
+      <workItem from="1558689672866" duration="14000" />
+      <workItem from="1558711757708" duration="4078000" />
+      <workItem from="1558949066550" duration="1991000" />
+      <workItem from="1559007851715" duration="472000" />
+      <workItem from="1559031596814" duration="391000" />
+      <workItem from="1559126837251" duration="5124000" />
+      <workItem from="1559143878784" duration="517000" />
+      <workItem from="1559185641621" duration="3773000" />
+      <workItem from="1559198645767" duration="161000" />
+      <workItem from="1559198828638" duration="179000" />
+      <workItem from="1559199060802" duration="318000" />
+      <workItem from="1559199512987" duration="10753000" />
+      <workItem from="1559270450061" duration="3217000" />
+      <workItem from="1559282053637" duration="6039000" />
+      <workItem from="1559349464996" duration="1713000" />
+      <workItem from="1559366222460" duration="11676000" />
+      <workItem from="1559524873738" duration="21149000" />
+      <workItem from="1559630540696" duration="492000" />
+      <workItem from="1559637904629" duration="1442000" />
+      <workItem from="1559639576658" duration="71000" />
+      <workItem from="1559639765207" duration="484000" />
+      <workItem from="1559640477970" duration="7097000" />
+      <workItem from="1559658084903" duration="2817000" />
+      <workItem from="1559661247403" duration="629000" />
+      <workItem from="1559662593016" duration="2923000" />
+      <workItem from="1559700654940" duration="327000" />
+      <workItem from="1559703022915" duration="203000" />
+      <workItem from="1559703887471" duration="9978000" />
+      <workItem from="1559793885263" duration="4047000" />
+      <workItem from="1559864630187" duration="711000" />
+      <workItem from="1559872437713" duration="564000" />
+      <workItem from="1559873647956" duration="308000" />
+      <workItem from="1559874048473" duration="977000" />
+      <workItem from="1559879670134" duration="269000" />
+      <workItem from="1559900726437" duration="5337000" />
+      <workItem from="1559909729427" duration="11004000" />
+      <workItem from="1559962636664" duration="21000" />
+      <workItem from="1559962747266" duration="335000" />
+      <workItem from="1559963814145" duration="99000" />
+      <workItem from="1559964253980" duration="208000" />
+      <workItem from="1559966364421" duration="12130000" />
+      <workItem from="1560234959587" duration="455000" />
+      <workItem from="1560426135399" duration="4622000" />
+      <workItem from="1560518604421" duration="2249000" />
+      <workItem from="1560522304690" duration="2378000" />
+      <workItem from="1560556001827" duration="6275000" />
+      <workItem from="1560735008355" duration="625000" />
+      <workItem from="1561277750255" duration="621000" />
+      <workItem from="1562136642428" duration="432000" />
+      <workItem from="1562410904261" duration="4611000" />
+      <workItem from="1562423284166" duration="780000" />
+      <workItem from="1562424092551" duration="54000" />
+      <workItem from="1562424246304" duration="581000" />
+      <workItem from="1562425098471" duration="714000" />
+      <workItem from="1562464132259" duration="1155000" />
+      <workItem from="1562467480063" duration="127000" />
+      <workItem from="1562467745751" duration="297000" />
+      <workItem from="1562468373804" duration="2161000" />
+      <workItem from="1562987757058" duration="249000" />
+      <workItem from="1563260980957" duration="1349000" />
+      <workItem from="1563463268308" duration="862000" />
+      <workItem from="1564065754870" duration="348000" />
+      <workItem from="1564105344683" duration="3000" />
+      <workItem from="1564132213541" duration="4311000" />
+      <workItem from="1566205833403" duration="6271000" />
+      <workItem from="1566268824280" duration="1249000" />
+      <workItem from="1566982030436" duration="790000" />
+      <workItem from="1566993384232" duration="497000" />
+      <workItem from="1567138300403" duration="516000" />
+      <workItem from="1567229656272" duration="675000" />
+      <workItem from="1567387636300" duration="82000" />
+      <workItem from="1567736619306" duration="2687000" />
+      <workItem from="1568112928814" duration="793000" />
+      <workItem from="1568186965478" duration="732000" />
+      <workItem from="1568362954849" duration="5859000" />
+      <workItem from="1568529710371" duration="407000" />
+      <workItem from="1568595457998" duration="84000" />
+      <workItem from="1568949930264" duration="4063000" />
+      <workItem from="1569203065548" duration="7000" />
+      <workItem from="1569291929803" duration="35000" />
+      <workItem from="1569337877932" duration="3410000" />
+      <workItem from="1569379581306" duration="10000" />
+      <workItem from="1569381441479" duration="2822000" />
+      <workItem from="1569404386646" duration="1017000" />
+      <workItem from="1569425848031" duration="1216000" />
+      <workItem from="1569460425384" duration="9319000" />
+      <workItem from="1569573627974" duration="150000" />
+      <workItem from="1569573989657" duration="2085000" />
+      <workItem from="1569748862267" duration="134000" />
+      <workItem from="1569812246190" duration="9934000" />
+      <workItem from="1570713857869" duration="1097000" />
+      <workItem from="1571041282817" duration="687000" />
+      <workItem from="1571380737355" duration="2314000" />
+      <workItem from="1571795992585" duration="833000" />
+      <workItem from="1571820812903" duration="665000" />
+      <workItem from="1572247097663" duration="13932000" />
+      <workItem from="1572320053563" duration="5671000" />
+      <workItem from="1572398283277" duration="8349000" />
+      <workItem from="1572420020718" duration="206000" />
+      <workItem from="1572572193245" duration="1553000" />
+      <workItem from="1572574002802" duration="9129000" />
+      <workItem from="1572785995078" duration="3713000" />
+      <workItem from="1572830351133" duration="563000" />
+      <workItem from="1572831389182" duration="5658000" />
+      <workItem from="1573112704193" duration="1024000" />
+      <workItem from="1573275265499" duration="471000" />
+      <workItem from="1573290938130" duration="2042000" />
+      <workItem from="1573640064434" duration="520000" />
+      <workItem from="1573719827915" duration="1598000" />
+      <workItem from="1573735250663" duration="2450000" />
+      <workItem from="1573809651010" duration="9756000" />
+      <workItem from="1573907432237" duration="2104000" />
+      <workItem from="1573918685328" duration="1680000" />
+      <workItem from="1573957317022" duration="1486000" />
+      <workItem from="1573960039232" duration="1701000" />
+      <workItem from="1573961871936" duration="15375000" />
+      <workItem from="1574080888374" duration="4079000" />
+      <workItem from="1574132325466" duration="6389000" />
+      <workItem from="1574156495083" duration="3123000" />
+      <workItem from="1574213253171" duration="6587000" />
+      <workItem from="1574299139174" duration="7000" />
+      <workItem from="1574304748590" duration="688000" />
+      <workItem from="1574342979226" duration="1126000" />
+      <workItem from="1574344469279" duration="633000" />
+      <workItem from="1574346789396" duration="231000" />
+      <workItem from="1574407259789" duration="9895000" />
+      <workItem from="1574686466603" duration="143000" />
+      <workItem from="1574911394229" duration="192000" />
+      <workItem from="1575107512539" duration="6186000" />
+      <workItem from="1575167831033" duration="20882000" />
+      <workItem from="1575343664960" duration="2130000" />
+      <workItem from="1575374001566" duration="8136000" />
+      <workItem from="1575510247856" duration="4799000" />
+      <workItem from="1575856615657" duration="732000" />
+      <workItem from="1575884972134" duration="10606000" />
+      <workItem from="1576665289954" duration="885000" />
+      <workItem from="1576826564651" duration="874000" />
+      <workItem from="1577265640955" duration="3171000" />
+      <workItem from="1577625886364" duration="382000" />
+      <workItem from="1577959248210" duration="21000" />
+      <workItem from="1578135068114" duration="70000" />
+      <workItem from="1578275184827" duration="6003000" />
+      <workItem from="1578305007254" duration="409000" />
+      <workItem from="1578625888028" duration="5514000" />
+      <workItem from="1581819415147" duration="2188000" />
+      <workItem from="1582022271911" duration="272000" />
+      <workItem from="1582169104499" duration="3549000" />
+      <workItem from="1582188958139" duration="529000" />
+      <workItem from="1582260280858" duration="575000" />
+      <workItem from="1582334607589" duration="274000" />
+      <workItem from="1582513245367" duration="421000" />
+      <workItem from="1582881038204" duration="2571000" />
+      <workItem from="1583137691274" duration="581000" />
+      <workItem from="1583209020575" duration="15000" />
+      <workItem from="1583287419537" duration="6874000" />
+      <workItem from="1583821884146" duration="598000" />
+      <workItem from="1583940555197" duration="2377000" />
+      <workItem from="1584069010009" duration="1000" />
+      <workItem from="1584435688422" duration="3061000" />
+      <workItem from="1584464170615" duration="6000" />
+      <workItem from="1584494522627" duration="1451000" />
+      <workItem from="1584497806571" duration="440000" />
+      <workItem from="1584600428512" duration="208000" />
+      <workItem from="1584621507864" duration="2100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="str_t_split_str - 2020.01.10 at 15h 07m 45s.xml">
+      <configuration name="str_t.split_str" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="str_t_split_str - 2020.01.10 at 15h 08m 08s.xml">
+      <configuration name="str_t.split_str" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="str_t_split_str - 2020.01.10 at 15h 11m 31s.xml">
+      <configuration name="str_t.split_str" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="date_t_t - 2020.02.16 at 10h 17m 34s.xml">
+      <configuration name="date_t.t" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="leet_code_reverse_int - 2020.03.18 at 09h 46m 41s.xml">
+      <configuration name="leet_code.reverse_int" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="leet_code_reverse_int - 2020.03.18 at 09h 47m 11s.xml">
+      <configuration name="leet_code.reverse_int" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="leet_code_reverse_int - 2020.03.18 at 09h 47m 44s.xml">
+      <configuration name="leet_code.reverse_int" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="leet_code_reverse_int - 2020.03.18 at 09h 48m 26s.xml">
+      <configuration name="leet_code.reverse_int" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="leet_code_reverse_int - 2020.03.19 at 14h 48m 51s.xml">
+      <configuration name="leet_code.reverse_int" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="leet_code_reverse_int - 2020.03.19 at 14h 49m 05s.xml">
+      <configuration name="leet_code.reverse_int" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="896975000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-667" y="-1440" width="2560" height="1440" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.522508" visible="true" weight="0.114035085" />
+      <window_info id="Structure" order="1" sideWeight="0.47749197" side_tool="true" weight="0.11004785" />
+      <window_info id="Project Explorer" order="2" sideWeight="0.49744245" weight="0.3299712" />
+      <window_info id="DB Browser" order="3" />
+      <window_info id="Job Explorer" order="4" sideWeight="0.49872124" weight="0.3299712" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.27458397" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4948166" weight="0.36762482" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49570024" weight="0.53479576" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32736573" />
+      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.49927953" weight="0.33358547" />
+      <window_info anchor="bottom" id="Console" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49927953" weight="0.3267776" />
+      <window_info anchor="bottom" id="TeamCity" order="11" sideWeight="0.49927953" weight="0.3267776" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.698941" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5051834" side_tool="true" weight="0.3494705" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49561402" weight="0.3207262" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24973376" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.2805139" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="make" order="5" weight="0.3299712" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_server.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testchar.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>58</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bit_reference</url>
+          <line>88</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>66</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>69</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>79</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>86</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>94</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>101</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>108</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>161</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>174</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/poco/aaaaa.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/poco/aaaaa.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>188</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testcplus.cpp</url>
+          <line>198</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/semaphore_test.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/semaphore_test.cpp</url>
+          <line>67</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/semaphore_test.cpp</url>
+          <line>78</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/semaphore_test.cpp</url>
+          <line>97</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/semaphore_test.cpp</url>
+          <line>108</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/semaphore_test.cpp</url>
+          <line>125</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/poco/aaaaa.cpp</url>
+          <line>63</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/semaphore_test.cpp</url>
+          <line>90</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/channel_test.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/channel_test.cpp</url>
+          <line>46</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/clock_test.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/task_test.cpp</url>
+          <line>255</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/task_test.cpp</url>
+          <line>481</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/task_test.cpp</url>
+          <line>483</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/task_test.cpp</url>
+          <line>357</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/task_test.cpp</url>
+          <line>290</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/log_test.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/datagramSocket_test.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/datagramSocket_test.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/log_test.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/log_test.cpp</url>
+          <line>142</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/log_test.cpp</url>
+          <line>150</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/log_test.cpp</url>
+          <line>162</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/log_test.cpp</url>
+          <line>184</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/log_test.cpp</url>
+          <line>231</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>64</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>69</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>74</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>70</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>79</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>88</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>97</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>106</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>115</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>124</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>134</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>143</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>152</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>161</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>197</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>188</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>179</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>213</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>223</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>232</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>241</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>250</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>259</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>268</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>278</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>287</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>296</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>305</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>314</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>323</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>208</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>332</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/clock_test.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_str.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>464</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_path.cpp</url>
+          <line>46</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_path.cpp</url>
+          <line>112</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_path.cpp</url>
+          <line>262</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_path.cpp</url>
+          <line>169</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_path.cpp</url>
+          <line>360</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_path.cpp</url>
+          <line>376</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>352</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>363</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>394</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>474</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>488</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>500</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>508</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>550</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>565</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>594</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>603</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>630</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>663</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_fun.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_str.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_str.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_str.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_str.cpp</url>
+          <line>44</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_str.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>586</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>581</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_event.cpp</url>
+          <line>68</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_activity.cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_event.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/smart_ptr.cpp</url>
+          <line>71</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_event.cpp</url>
+          <line>118</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_task.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_notifaction.cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_notifaction.cpp</url>
+          <line>47</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>98</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>93</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>151</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>111</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>183</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>87</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>86</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>47</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>74</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>78</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>191</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>235</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>228</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>141</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_template.cpp</url>
+          <line>142</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_notifaction.cpp</url>
+          <line>119</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_notifaction.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_ip.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_ip.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_ip.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_ip.cpp</url>
+          <line>41</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_data.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/testshare_memory.cpp</url>
+          <line>44</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_boost/test_boost.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_boost/test_boost.cpp</url>
+          <line>57</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_boost/test_boost.cpp</url>
+          <line>98</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_boost/test_boost.cpp</url>
+          <line>107</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/shared_memory_test.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/test_no_name_memory.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/test_change_memory.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/test_again.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/test_again.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/test_again.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/test_no_name_memory.cpp</url>
+          <line>8</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/protobuf/test_protobuf.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/protobuf/test_protobuf.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/protobuf/send_message.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/protobuf/send_message.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/protobuf/receive_message.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/protobuf/receive_message.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/protobuf/receive_message.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_redis/redis_make.cpp</url>
+          <line>32</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_redis/redis_make.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_redis/redis_make.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_redis/redis_make.cpp</url>
+          <line>4</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_redis/add_redis.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_redis/add_redis.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_redis/add_redis.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/test_hashtable.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/hell.cpp</url>
+          <line>219</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/hell.cpp</url>
+          <line>221</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>88</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>41</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>377</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>386</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>46</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>430</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>50</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>557</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>57</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>65</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>67</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>83</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>497</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>517</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>500</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>92</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>87</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>581</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>610</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>615</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/test_reference.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>103</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>148</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>139</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>145</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>146</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>115</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>160</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>161</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>158</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>167</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>168</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>647</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>199</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/fun.cpp</url>
+          <line>685</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>229</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>259</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>288</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>317</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>318</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test_fun/algorithm_data.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testchar.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testchar.cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/testa_fork.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/test_color.cpp</url>
+          <line>8</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/task_test.cpp</url>
+          <line>456</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>87</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>136</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>169</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>193</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>220</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>221</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>253</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>269</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>156</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encoding_test.cpp</url>
+          <line>178</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/cache_test.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/cache_test.cpp</url>
+          <line>63</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/cache_test.cpp</url>
+          <line>72</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/cache_test.cpp</url>
+          <line>124</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/librdkafka-master/examples/rdkafka_example.cpp</url>
+          <line>233</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kafka_test/kafka_test_c.cpp</url>
+          <line>621</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kafka_test/kafka_test_c.cpp</url>
+          <line>822</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kafka_test/kafka_test_c.cpp</url>
+          <line>697</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kafka_test/kafka_test_c.cpp</url>
+          <line>809</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kafka_test/kafka_test_c.cpp</url>
+          <line>820</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/librdkafka-master/src-cpp/TopicImpl.cpp</url>
+          <line>80</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/notificationcenterTest.cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/notificationcenterTest.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/dynamic_test_is_null.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/c.h</url>
+          <line>6</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/multi_request_mysql.cpp</url>
+          <line>88</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/multi_request_mysql.cpp</url>
+          <line>91</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/multi_request_mysql.cpp</url>
+          <line>117</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/multi_request_mysql.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/multi_request_mysql.cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/multi_request_mysql.cpp</url>
+          <line>49</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/shareptr_test.cpp</url>
+          <line>87</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/shareptr_test.cpp</url>
+          <line>212</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/shareptr_test.cpp</url>
+          <line>211</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/shareptr_test.cpp</url>
+          <line>204</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/shareptr_test.cpp</url>
+          <line>203</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/multi_request_mysql.cpp</url>
+          <line>136</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/void_to_obj.h</url>
+          <line>24</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/void_to_obj.cpp</url>
+          <line>41</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/void_to_obj.h</url>
+          <line>11</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/void_to_obj.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/main_poco/timer_test.cpp</url>
+          <line>40</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encode_test.cpp</url>
+          <line>223</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encode_test.cpp</url>
+          <line>228</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encode_test.cpp</url>
+          <line>237</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encode_test.cpp</url>
+          <line>316</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encode_test.cpp</url>
+          <line>324</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encode_test.cpp</url>
+          <line>309</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/encode_test.cpp</url>
+          <line>275</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/mysql_test.cpp</url>
+          <line>102</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/mysql_test.cpp</url>
+          <line>132</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/mysql_test.cpp</url>
+          <line>84</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/mysql_test/mysql_test.cpp</url>
+          <line>73</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/json_test.cpp</url>
+          <line>53</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/json_test.cpp</url>
+          <line>86</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kafka_test/kafka_test_c.cpp</url>
+          <line>894</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kafka_test/kafka_test_c.cpp</url>
+          <line>905</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/kafka_test/kafka_test_c.cpp</url>
+          <line>620</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp</url>
+          <line>40</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/test_main.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp</url>
+          <line>203</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp</url>
+          <line>199</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp</url>
+          <line>188</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp</url>
+          <line>184</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp</url>
+          <line>173</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp</url>
+          <line>169</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp</url>
+          <line>153</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/TimeStampTest.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/TimeStampTest.cpp</url>
+          <line>53</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/audit_test/auditMain.cpp</url>
+          <line>105</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/audit_test/auditMain.cpp</url>
+          <line>128</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/audit_test/auditMain.cpp</url>
+          <line>138</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/audit_test/auditMain.cpp</url>
+          <line>339</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/audit_test/auditMain.cpp</url>
+          <line>353</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/audit_test/auditMain.cpp</url>
+          <line>344</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/TimeStampTest.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/TimeStampTest.cpp</url>
+          <line>69</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/TimeStampTest.cpp</url>
+          <line>71</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/audit_test/test.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtestinherit/time_test.cpp</url>
+          <line>40</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/t_ostringstream.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/channel_t.cpp</url>
+          <line>53</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/hex_t.cpp</url>
+          <line>8</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/hex_t.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/hex_t.cpp</url>
+          <line>46</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/hex_t.cpp</url>
+          <line>60</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/hex_t.cpp</url>
+          <line>76</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/hex_t.cpp</url>
+          <line>90</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/hex_t.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp</url>
+          <line>718</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/timestamp_test.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/leet_code_learn.cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/gtest_poco/leet_code_learn.cpp</url>
+          <line>64</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/audit_test/auditMain.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3700">
+          <caret line="148" column="38" selection-start-line="148" selection-start-column="38" selection-end-line="148" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/audit_test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtestinherit/LoggerSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/audit_test/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/LoggerSystem.h" />
+    <entry file="file://$PROJECT_DIR$/test/gtestinherit/gtestex.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/redis_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="169" column="3" selection-start-line="96" selection-start-column="2" selection-end-line="169" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/test_vtk.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-start-column="2" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main_poco/stream_t.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtestinherit/redis_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="178" column="5" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/poco/1.9.4/include/Poco/AtomicCounter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4300">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/poco/1.9.4/include/Poco/AutoPtr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ls_cat_file.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/hex_t.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2775">
+          <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/iconv.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poco/active.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/poco/1.9.4/include/Poco/RefCountedObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/stat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9325">
+          <caret line="373" column="13" selection-start-line="373" selection-start-column="8" selection-end-line="373" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4350">
+          <caret line="174" column="5" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/timestamp_test.h" />
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/t_ostringstream.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/test_file.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtestinherit/test_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/DateTime_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtestinherit/DistributeTime.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3200">
+          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtestinherit/DistributeTime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/test_str.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1675">
+          <caret line="67" selection-start-line="67" selection-end-line="67" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/TestChannel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/cache_test.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/channel_t.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/channel_test.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/TestChannel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/cloud_get_bill_from_file.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/dump.sql">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/cloudagent.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/cloudagent.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-end-line="3037" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/choseip.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/countip.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/make_sql.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/mv_audit_file.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55525">
+          <caret line="2221" selection-start-line="2221" selection-end-line="2221" />
+          <folding>
+            <element signature="e#80419#80681#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/char_t.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2800">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/limits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144275">
+          <caret line="5771" column="25" selection-start-line="5771" selection-start-column="25" selection-end-line="5771" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtestinherit/time_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main_poco/timer_test.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/timestamp_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtestinherit/TimeStampTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/tmp.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gtest_poco/leet_code_learn.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
