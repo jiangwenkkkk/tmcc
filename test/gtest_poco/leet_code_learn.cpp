@@ -75,3 +75,93 @@ TEST(leet_code, reverse_int)
 		std::cout << "ok";
 	}
 }
+
+
+int romanToInt(string s) {
+
+}
+TEST(leet_code, romanToInt)
+{
+	string a = "MCMXCIV";
+	romanToInt(a);
+}
+
+
+int myAtoi(string str) {
+	int result = 0;
+	int len = str.size();
+	int index = 0;
+	int temp = 0;
+	bool is_num = false;
+	int sign = 1;
+	while(len > index)
+	{
+		temp = str[index];
+
+		if(temp=='-' && is_num == false)
+		{
+			sign = -1;
+			is_num = true;
+			index++;
+			continue;
+		}
+
+
+		if(temp=='+' && is_num == false)
+		{
+			sign = 1;
+			is_num = true;
+			index++;
+			continue;
+		}
+
+		if(temp >= '0' && temp <= '9')
+		{
+			temp = str[index] - '0';
+			is_num = true;
+			int max =  INT_MAX/10;
+			int min =  INT_MIN/10;
+			if(result > INT_MAX/10 || (result == INT_MAX/10 && temp >= 7)) return INT_MAX;
+			if(result < INT_MIN/10 || (result == INT_MIN/10 && temp >= 8)) return INT_MIN;
+
+			result = result*10+temp*sign;
+			index++;
+			continue;
+		}
+
+		if(temp==' '&& is_num == false)
+		{
+			index++;
+			continue;
+		}
+		else if (temp == ' ' && is_num == true)
+			break;
+
+
+		if(is_num == false)
+			return 0;
+		else
+			break;
+	}
+	return result;
+}
+
+TEST(leet_code, myAtoi){
+	ASSERT_EQ(myAtoi("4193 with words"),4193);
+	ASSERT_EQ(myAtoi("a 4193 with words"),0);
+	ASSERT_EQ(myAtoi("-91283472332"),-2147483648);
+	ASSERT_EQ(myAtoi(" -91283472332"),-2147483648);
+	ASSERT_EQ(myAtoi(" +91283472332"),2147483647);
+	ASSERT_EQ(myAtoi(" ++91283472332"),0);
+	ASSERT_EQ(myAtoi("3.14"),3);
+	ASSERT_EQ(myAtoi("3a"),3);
+	ASSERT_EQ(myAtoi("3a3"),3);
+
+
+//	std::cout << myAtoi("3.12");
+
+	string a=" - -110--0";
+	std::cout << atoi(a.c_str());
+	a="abc3.14";
+	std::cout << atoi(a.c_str());
+}
