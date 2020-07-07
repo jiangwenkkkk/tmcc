@@ -1401,19 +1401,19 @@ TEST( PathTest,testParseWindows1)
 //	assert (p.getBaseName() == "foo");
 //	assert (p.getExtension() == "bar");
 //
-//	p.setBaseName("readme");
-//	assert (p.getFileName() == "readme.bar");
-//	assert (p.getBaseName() == "readme");
+//	p.setBaseName("README.md");
+//	assert (p.getFileName() == "README.md.bar");
+//	assert (p.getBaseName() == "README.md");
 //	assert (p.getExtension() == "bar");
 //
 //	p.setExtension("txt");
-//	assert (p.getFileName() == "readme.txt");
-//	assert (p.getBaseName() == "readme");
+//	assert (p.getFileName() == "README.md.txt");
+//	assert (p.getBaseName() == "README.md");
 //	assert (p.getExtension() == "txt");
 //
 //	p.setExtension("html");
-//	assert (p.getFileName() == "readme.html");
-//	assert (p.getBaseName() == "readme");
+//	assert (p.getFileName() == "README.md.html");
+//	assert (p.getBaseName() == "README.md");
 //	assert (p.getExtension() == "html");
 //
 //	p.setBaseName("index");

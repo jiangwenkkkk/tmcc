@@ -3,9 +3,9 @@ LOG_FILE="/app/sr/script/mv_auditFile.log"
 v_date=`date -d "-2 days" +%Y%m%d`
 
 
-auditfilepath="/data1/sr/check_bak/"
-auditfilepath_bak="/data1/roam/check_bak/"
-auditfilefilter="BOSSNM_0_3253_40206*"${v_date}"*"
+binlogfilepath="/data1/teledb/mysql/data/mysql*/binlog"
+binlogfilepath_bak="/data6/binlog_bak"
+logfilefilter=mysql-bin.*
 
 echo $auditfilefilter
 echo "[`date +\"%Y/%m/%d %H:%M:%S\"`] start move "$v_date >>$LOG_FILE

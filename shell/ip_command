@@ -1,0 +1,21 @@
+10.128.117.35;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10050/redis.conf;
+10.128.117.35;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10060/redis.conf;
+10.128.117.35;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10070/redis.conf;
+10.128.117.35;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10080/redis.conf;
+10.128.117.34;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10050/redis.conf;
+10.128.117.34;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10060/redis.conf;
+10.128.117.34;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10070/redis.conf;
+10.128.117.34;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10080/redis.conf;
+10.128.117.33;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10050/redis.conf;
+10.128.117.33;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10060/redis.conf;
+10.128.117.33;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10070/redis.conf;
+10.128.117.33;js_app;Abc.123\$;/jsdata/redis/bin/redis-server /jsdata/redis/config/10080/redis.conf;
+10.128.117.19;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/zookeeper-server-start.sh -daemon /jsdata/kafka/config/zookeeper.properties;
+10.128.117.20;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/zookeeper-server-start.sh -daemon /jsdata/kafka/config/zookeeper.properties;
+10.128.117.21;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/zookeeper-server-start.sh -daemon /jsdata/kafka/config/zookeeper.properties;
+10.128.117.19;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/kafka-server-start.sh -daemon  /jsdata/kafka/config/server.properties;
+10.128.117.20;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/kafka-server-start.sh -daemon  /jsdata/kafka/config/server.properties;
+10.128.117.21;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/kafka-server-start.sh -daemon  /jsdata/kafka/config/server.properties;
+
+    /jsdata/kafka/kafka_2.11-0.10.0.1/bin/zookeeper-server-start.sh -daemon /jsdata/kafka/config/zookeeper.properties;
+/jsdata/kafka/kafka_2.11-0.10.0.1/bin/kafka-server-start.sh -daemon  /jsdata/kafka/config/server.properties;

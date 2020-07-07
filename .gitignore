@@ -43,3 +43,5 @@ build
 bin
 *.DS_Store
 CMakeLists.txt.user
+*CMakeCache.txt
+cmake-build-debug

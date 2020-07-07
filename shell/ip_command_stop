@@ -1,0 +1,17 @@
+10.128.117.35;js_app;Abc.123\$;ps aux |grep redis 	|xargs kill;
+10.128.117.34;js_app;Abc.123\$;ps aux |grep redis 	|xargs kill;
+10.128.117.33;js_app;Abc.123\$;ps aux |grep redis 	|xargs kill;
+10.128.117.19;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/kafka-server-stop.sh  ;
+10.128.117.20;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/kafka-server-stop.sh   ;
+10.128.117.21;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/kafka-server-stop.sh  ;
+10.128.117.19;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/zookeeper-server-stop.sh ;
+10.128.117.20;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/zookeeper-server-stop.sh ;
+10.128.117.21;js_app;jsapp@12;/jsdata/kafka/kafka_2.11-0.10.0.1/bin/zookeeper-server-stop.sh ;
+10.130.236.18;js_hadoop;ha_JSjq!19;
+10.130.236.19;js_hadoop;ha_JSjq!19;
+10.130.236.20;js_hadoop;ha_JSjq!19;
+
+
+/jsdata/kafka/kafka_2.11-0.10.0.1/bin/zookeeper-server-stop.sh ;
+/jsdata/kafka/kafka_2.11-0.10.0.1/bin/kafka-server-stop.sh  ;
+

@@ -4,6 +4,10 @@
 
 #include <gtest.h>
 #include <list>
+#include <deque>
+#include <queue>
+
+
 using namespace std;
 
 class node{
@@ -157,7 +161,6 @@ TEST(leet_code, myAtoi){
 	ASSERT_EQ(myAtoi("3a"),3);
 	ASSERT_EQ(myAtoi("3a3"),3);
 
-
 //	std::cout << myAtoi("3.12");
 
 	string a=" - -110--0";
@@ -165,3 +168,231 @@ TEST(leet_code, myAtoi){
 	a="abc3.14";
 	std::cout << atoi(a.c_str());
 }
+
+
+string longestCommonPrefix(vector<string>& strs) {
+	if (strs.empty())
+		return "";
+	string prefix;
+	int shortest_len = 0;
+	for(auto iter = strs.begin(); iter != strs.end(); ++iter)
+	{
+		if (shortest_len < (*iter).size())
+			shortest_len = (*iter).size();
+	}
+
+	char pos_prefix;
+	bool is_end=true;
+	int index = 0;
+	for (; index < shortest_len; ++index)
+	{
+		pos_prefix = strs[0][index];
+		for(auto iter = strs.begin(); iter != strs.end(); ++iter)
+		{
+			if (pos_prefix != (*iter)[index])
+			{
+				is_end=false;
+				break;
+			}
+		}
+		if (is_end==false)
+			break;
+	}
+
+	prefix = strs[0].substr(0,index);
+	return prefix;
+}
+
+TEST(leet_code, longestCommonPrefix)
+{
+	vector<string> a={"flower", "flow", "flight"};
+	ASSERT_EQ(longestCommonPrefix(a),"fl");
+	a={};
+	ASSERT_EQ(longestCommonPrefix(a),"");
+
+}
+
+struct TreeNode {
+	int val;
+	TreeNode *left;
+	TreeNode *right;
+	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+bool isSameTree(TreeNode* p, TreeNode* q) {
+	if (p == nullptr && q == nullptr) return true;
+	if (p == nullptr || q == nullptr) return false;
+	bool left = true;
+	bool right = true;
+	if (p->val != q->val)
+		return false;
+
+	left = isSameTree(p->right, q->right);
+	right =  isSameTree(p->left, q->left);
+
+	return left&right;
+}
+
+TEST(leet_code, isSameTree)
+{
+	TreeNode a(1);
+	TreeNode b(2);
+	TreeNode c(3);
+	a.left = &b;
+	a.right = &c;
+
+	TreeNode d(1);
+	TreeNode e(2);
+	TreeNode f(3);
+	d.left = &e;
+	d.right = &f;
+
+	ASSERT_EQ(isSameTree(&a, &d),true);
+
+	TreeNode a1(1);
+	TreeNode b1(2);
+	TreeNode c1(3);
+	a1.left = &b1;
+	a1.right = &c1;
+
+	TreeNode d1(1);
+	TreeNode e1(2);
+	TreeNode f1(1);
+	d1.left = &e1;
+	d1.right = &f1;
+
+	ASSERT_EQ(isSameTree(&a1, &d1), false);
+
+	TreeNode a2(1);
+	TreeNode b2(-5);
+	a1.left = &b2;
+
+	TreeNode d2(1);
+	TreeNode e2(-8);
+	d2.left = &e2;
+
+	ASSERT_EQ(isSameTree(&a2, &d2), false);
+}
+
+bool is_same_a(TreeNode* left, TreeNode* right)
+{
+	if (left == nullptr && right == nullptr) return true;
+	if (left == nullptr || right == nullptr) return false;
+
+
+	if (left->val != right->val)
+		return false;
+
+	return is_same_a(left->left,right->right)&is_same_a(left->right, right->left);
+}
+
+bool isSymmetric(TreeNode* root) {
+	if (root == nullptr) return true;
+
+
+	return is_same_a(root->left, root->right);
+}
+
+
+
+TEST(leet_code, isSymmetric)
+{
+	TreeNode a(1);
+	TreeNode b(2);
+	TreeNode c(2);
+	a.left = &b;
+	a.right = &c;
+
+	ASSERT_EQ(isSymmetric(&a),true);
+
+	TreeNode a1(1);
+	TreeNode b1(2);
+	TreeNode c1(3);
+	a1.left = &b1;
+	a1.right = &c1;
+
+	ASSERT_EQ(isSymmetric(&a1), false);
+}
+
+void depth(TreeNode*  node, int& _depth, int index)
+{
+	if(node == nullptr) return;
+	index++;
+	if (_depth < index)
+		_depth = index;
+	depth(node->left, _depth,index);
+	depth(node->right,_depth,index);
+}
+
+int maxDepth(TreeNode* root) {
+
+	int _depth = 0;
+	int index = 0;
+	depth(root, _depth, index);
+	return _depth;
+}
+
+int maxDeptha(TreeNode* root)
+{
+	if (root == nullptr)return 0;
+
+	std::queue<TreeNode*> q_t;
+	q_t.push(root);
+	int len = 0;
+	while (!q_t.empty()) {
+		len++;
+		int n = q_t.size();
+		for (int i = 0; i < n; i++)
+		{
+			TreeNode * p = q_t.front(); q_t.pop();
+			if(p->left) q_t.push(p->left);
+			if(p->right) q_t.push(p->right);
+		}
+	}
+
+	return len;
+}
+
+bool tmp(int a )
+{
+	std::cout << "hello" << std::endl;
+}
+
+
+TEST(ll,tmp)
+{
+	cout << tmp(10) << endl;
+	cout << tmp(10) << endl;
+	cout << tmp(10) << endl;
+	cout << tmp(10) << endl;
+	cout << tmp(10) << endl;
+	cout << tmp(10) << endl;
+	cout << tmp(10) << endl;
+	cout << tmp(10) << endl;
+
+}
+
+TEST(leet_code, maxDepth)
+{
+	TreeNode a(1);
+	TreeNode b(2);
+	TreeNode c(2);
+	a.left = &b;
+	a.right = &c;
+
+	ASSERT_EQ(maxDepth(&a),2);
+	ASSERT_EQ(maxDeptha(&a),2);
+
+	TreeNode a1(1);
+	TreeNode c1(3);
+	a1.right = &c1;
+
+	ASSERT_EQ(maxDepth(&a1), 2);
+	ASSERT_EQ(maxDeptha(&a1), 2);
+
+	ASSERT_EQ(maxDepth(nullptr), 0);
+	ASSERT_EQ(maxDeptha(nullptr), 0);
+
+
+}
+

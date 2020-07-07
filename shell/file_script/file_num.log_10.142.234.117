@@ -1,0 +1,3 @@
+spawn ssh roam@10.142.234.117 -p 2200
+echo -n 10.142.234.117;find /data1/sr/roam_in | wc -l 
+ssh: connect to host 10.142.234.117 port 2200: Operation timed out

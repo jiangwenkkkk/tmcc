@@ -46,7 +46,8 @@ boost::multi_index::member<Employee, std::string, &Employee::name> >
 >
 > EmployeeSet;
 
-
+/*
+ * 临时屏蔽
 int main()
 {
 	EmployeeSet employees;
@@ -63,3 +64,4 @@ int main()
 			name_index.end(),
 			std::ostream_iterator<Employee>(std::cout));
 }
+ */

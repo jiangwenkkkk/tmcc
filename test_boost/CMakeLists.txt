@@ -5,12 +5,19 @@ if(Boost_FOUND)
     link_directories(/usr/local/lib)
     include_directories(/usr/local/include/gtest)
     include_directories(${Boost_INCLUDE_DIRS})
-    add_executable(foo test_boost.cpp)
-    add_executable(test_muti test_muti.cpp)
-    target_link_libraries(foo libgtest.a libgtest_main.a)
+    include_directories(safe_lib)
 
-    target_link_libraries(foo Boost::date_time Boost::filesystem
-            Boost::iostreams)
+    aux_source_directory(. TEST_MUTI)
+#    add_executable(foo test_boost.cpp)
+    add_executable(test_muti ${TEST_MUTI})
+    target_link_libraries(test_muti libgtest.a libgtest_main.a)
+
     target_link_libraries(test_muti Boost::date_time Boost::filesystem
             Boost::iostreams)
+    target_link_libraries(test_muti safe_multi)
+
+#    target_link_libraries(test_muti Boost::date_time Boost::filesystem
+#            Boost::iostreams)
 endif()
+
+add_subdirectory(safe_lib)
