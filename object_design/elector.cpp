@@ -23,6 +23,7 @@ private:
     int iDestFloor;
     int iIndex;
     Poco::Mutex _mutex;
+    Poco::Mutex _mutexList;
     std::list<int> lisDest;
     Poco::Thread _thread;
 public:
@@ -46,6 +47,7 @@ public:
     }
 
     bool start_to_end(int start, int end){
+        Poco::ScopedLock<Poco::Mutex>b(_mutexList);
         lisDest.push_back(start);
         lisDest.push_back(end);
     }
@@ -68,6 +70,8 @@ public:
                 lisDest.pop_front();
 
             }
+            Poco::Thread::sleep(100);
+            std::cout << "running" << std::endl;
         }
     }
 

@@ -3,6 +3,14 @@ project(testpoco)
 
 set(CMAKE_CXX_STANDARD 11)
 
+SET(Poco_INCLUDE_DIRS "/usr/local/include/Poco")
+find_package(Poco REQUIRED COMPONENTS Foundation XML JSON Util )
+#这个地方还有引用顺序的问题
+include_directories(
+        ${MY_SRC_INCLUDE}
+        ${Poco_INCLUDE_DIRS}
+)
+link_directories(${CMAKE_BINARY_DIR})
 set(SOURCE_FILES main.cpp)
 add_executable(testpoco ${SOURCE_FILES})
 
@@ -22,9 +30,9 @@ add_executable(testpoco ${SOURCE_FILES})
 #        "pthread")
 #message(${POCO_LIBS})
 ## set the include path for the app
-#target_include_directories(testpoco PRIVATE "${POCO_INCLUDE_DIR}")
+target_include_directories(testpoco PRIVATE "${POCO_INCLUDE_DIR}")
 ## link the app against POCO
-#target_link_libraries(testpoco "${POCO_LIBS}")
+target_link_libraries(testpoco "${Poco_LIBRARIES}")
 #
 
 
@@ -42,15 +50,15 @@ add_executable(testpoco ${SOURCE_FILES})
 #target_link_libraries(test_servera "${POCO_LIBS}")
 
 
-add_subdirectory(test)
+#add_subdirectory(test)
 #add_subdirectory(poco)
 
 #add_subdirectory(test_boost)
-add_subdirectory(test_redis)
+#add_subdirectory(test_redis)
 #add_subdirectory(test_qt)
-add_subdirectory(test_fun)
-add_subdirectory(kafka_test)
-add_subdirectory(librdkafka-master)
+#add_subdirectory(test_fun)
+#add_subdirectory(kafka_test)
+#add_subdirectory(librdkafka-master)
 #add_subdirectory(c++)
-add_subdirectory(c_plus_plus_test)
+#add_subdirectory(c_plus_plus_test)
 add_subdirectory(object_design)
