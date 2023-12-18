@@ -3,64 +3,107 @@
 //
 #include "vector"
 #include <iostream>
+#include <list>
+#include "Poco/Thread.h"
+#include "Poco/Mutex.h"
 
-class elevator {
+class elevator: public Poco::Runnable{
 public:
     enum {
         stoped = 0,
         running,
         broken,
+        cancelling,
+        finished,
     };
 private:
     int iFloor;
     int iState;
     int iMaxFloor;
     int iDestFloor;
+    int iIndex;
+    Poco::Mutex _mutex;
+    std::list<int> lisDest;
+    Poco::Thread _thread;
 public:
-    elevator(int max_floor) : iMaxFloor(max_floor), iState(stoped), iFloor(0), iDestFloor(0){
+    elevator(int max_floor, int index) : iMaxFloor(max_floor), iState(stoped), iFloor(0), iDestFloor(0), iIndex(index), Poco::Runnable(){
+        _thread.start(this);
     }
     bool toDest(int dest){
-        if(iState==running)
+        if(getState()==running)
             return false;
-        iState = running;
+        setState(running);
         iDestFloor = dest;
         while(iDestFloor != iFloor)
         {
-            std::cout << ">>>>>" << iFloor << std::endl;
+            std::cout << iIndex << ">>>>>" << iFloor << std::endl;
             if(iDestFloor < iFloor)
                 iFloor--;
             else if(iDestFloor > iFloor)
                 iFloor++;
         }
-        iState = stoped;
+        setState(stoped);
+    }
+
+    bool start_to_end(int start, int end){
+        lisDest.push_back(start);
+        lisDest.push_back(end);
     }
 
     int getState(){
+        Poco::ScopedLock<Poco::Mutex>a(_mutex);
         return iState;
+    }
+
+    void setState(int state){
+        Poco::ScopedLock<Poco::Mutex>a(_mutex);
+        iState = state;
+    }
+
+    void run(){
+        while(getState()!=finished){
+            if(!lisDest.empty()){
+                toDest(lisDest.front());
+                std::cout << "go to " <<  lisDest.front() << std::endl;
+                lisDest.pop_front();
+
+            }
+        }
+    }
+
+    ~elevator(){
+        setState(finished);
+        _thread.join();
     }
 };
 
 class Center{
 private:
-    std::vector<elevator> electors;
+    std::vector<elevator*> electors;
 public:
     void toDest(int floor, int dest){
         int i = 0;
         for(; i < electors.size(); i++)
         {
-            if(electors[i].getState() == elevator::stoped){
+            if(electors[i]->getState() == elevator::stoped){
                 break;
             }
         }
-        electors[i].toDest(floor);
-        std::cout << "您好" << std::endl;
-        electors[i].toDest(dest);
-        std::cout << floor << " to " << dest<< "thanks \n" << std::endl;
+
+
+        electors[i]->start_to_end(floor, dest);
+
+    }
+
+    void run(){
+        Poco::Thread a();
     }
 
     Center(){
-        elevator ele(10);
-        electors.push_back(ele);
+        elevator ele(10, 1);
+        electors.push_back(&ele);
+        elevator ele1(10,2);
+        electors.push_back(&ele1);
     }
 
 };
