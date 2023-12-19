@@ -57,12 +57,15 @@ public:
         return iState;
     }
 
+protected:
+
     void setState(int state){
         Poco::ScopedLock<Poco::Mutex>a(_mutex);
         iState = state;
     }
 
     void run(){
+        static int count = 0;
         while(getState()!=finished){
             if(!lisDest.empty()){
                 toDest(lisDest.front());
@@ -71,7 +74,8 @@ public:
 
             }
             Poco::Thread::sleep(100);
-            std::cout << "running" << std::endl;
+            if(++count%10 == 0)
+                std::cout <<iIndex << " is running " << count << std::endl;
         }
     }
 
@@ -79,6 +83,7 @@ public:
         setState(finished);
         _thread.join();
     }
+    friend class Center;
 };
 
 class Center{
@@ -99,15 +104,13 @@ public:
 
     }
 
-    void run(){
-        Poco::Thread a();
-    }
+
 
     Center(){
-        elevator ele(10, 1);
-        electors.push_back(&ele);
-        elevator ele1(10,2);
-        electors.push_back(&ele1);
+        elevator* ele1 = new elevator(10, 1);
+        electors.push_back(ele1);
+        elevator* ele2 = new elevator(10,2);
+        electors.push_back(ele1);
     }
 
 };
