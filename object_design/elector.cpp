@@ -31,9 +31,7 @@ public:
         _thread.start(this);
     }
     bool toDest(int dest){
-        if(getState()==running)
-            return false;
-        setState(running);
+
         iDestFloor = dest;
         while(iDestFloor != iFloor)
         {
@@ -42,6 +40,7 @@ public:
                 iFloor--;
             else if(iDestFloor > iFloor)
                 iFloor++;
+            Poco::Thread::sleep(1000);
         }
         setState(stoped);
     }
@@ -88,29 +87,28 @@ protected:
 
 class Center{
 private:
-    std::vector<elevator*> electors;
+    std::vector<elevator*> elevators;
 public:
     void toDest(int floor, int dest){
         int i = 0;
-        for(; i < electors.size(); i++)
+        for(; i < elevators.size(); i++)
         {
-            if(electors[i]->getState() == elevator::stoped){
-                break;
+            if(elevators[i]->getState() == elevator::stoped){
+                std::cout << i << " elevator is idle" << std::endl;
+                elevators[i]->setState(elevator::running);
+                elevators[i]->start_to_end(floor, dest);
             }
         }
 
-
-        electors[i]->start_to_end(floor, dest);
+        std::cout << "error no elevator" << std::endl;
 
     }
 
-
-
     Center(){
         elevator* ele1 = new elevator(10, 1);
-        electors.push_back(ele1);
+        elevators.push_back(ele1);
         elevator* ele2 = new elevator(10,2);
-        electors.push_back(ele1);
+        elevators.push_back(ele2);
     }
 
 };
@@ -122,6 +120,6 @@ int main()
     cen.toDest(0, 10);
     cen.toDest(1, 10);
     cen.toDest(3, 10);
-
+    Poco::Thread::sleep(1000000);
     return 1;
 }
