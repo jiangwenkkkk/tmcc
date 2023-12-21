@@ -6,6 +6,25 @@
 #include <list>
 #include "Poco/Thread.h"
 #include "Poco/Mutex.h"
+#include "Poco/Logger.h"
+#include "Poco/ConsoleChannel.h"
+
+using Poco::Logger;
+using Poco::ConsoleChannel;
+using Poco::Channel;
+using Poco::Message;
+using Poco::AutoPtr;
+
+#define LOG_INFO(format, args...) do { \
+                                       char log[4096] = {0}; \
+                                       snprintf(log, 4095, format, ##args); \
+                                       Logger::root().debug(log);           \
+                                     } while(0)
+#define LOG_ERR(format, args...) do { \
+                                       char log[4096] = {0}; \
+                                       snprintf(log, 4095, format, ##args); \
+                                       Logger::root().error(log);           \
+                                     } while(0)
 
 class elevator: public Poco::Runnable{
 public:
@@ -28,14 +47,15 @@ private:
     Poco::Thread _thread;
 public:
     elevator(int max_floor, int index) : iMaxFloor(max_floor), iState(stoped), iFloor(0), iDestFloor(0), iIndex(index), Poco::Runnable(){
-        _thread.start(this);
+        _thread.start(*this);
     }
     bool toDest(int dest){
 
         iDestFloor = dest;
         while(iDestFloor != iFloor)
         {
-            std::cout << iIndex << ">>>>>" << iFloor << std::endl;
+//            std::cout << iIndex << ">>>>>" << iFloor << std::endl;
+            LOG_INFO("index [%d] >>>>>>> floor [%d]", iIndex, iFloor);
             if(iDestFloor < iFloor)
                 iFloor--;
             else if(iDestFloor > iFloor)
@@ -56,6 +76,7 @@ public:
         return iState;
     }
 
+
 protected:
 
     void setState(int state){
@@ -68,8 +89,10 @@ protected:
         while(getState()!=finished){
             if(!lisDest.empty()){
                 toDest(lisDest.front());
-                std::cout << "go to " <<  lisDest.front() << std::endl;
+//                std::cout << "go to " <<  lisDest.front() << std::endl;
+                LOG_INFO("go to [%d] ", lisDest.front());
                 lisDest.pop_front();
+
 
             }
             Poco::Thread::sleep(100);
@@ -94,13 +117,15 @@ public:
         for(; i < elevators.size(); i++)
         {
             if(elevators[i]->getState() == elevator::stoped){
-                std::cout << i << " elevator is idle" << std::endl;
+//                std::cout << i << " elevator is idle" << std::endl;
+                LOG_INFO("[%d] elevator is idle ");
                 elevators[i]->setState(elevator::running);
                 elevators[i]->start_to_end(floor, dest);
             }
         }
 
-        std::cout << "error no elevator" << std::endl;
+//        std::cout << "error no elevator" << std::endl;
+          LOG_ERR("error no elevator");
 
     }
 
@@ -116,6 +141,15 @@ public:
 
 int main()
 {
+    Logger& root = Logger::root();
+    AutoPtr<ConsoleChannel> pConsoleChannel = new ConsoleChannel();
+    root.setChannel(pConsoleChannel);
+    pConsoleChannel->open();
+    root.setLevel(Message::PRIO_DEBUG);
+    root.error("hello");
+    LOG_INFO("tmccefg");
+    LOG_ERR("fuck %s","ttt");
+
     Center cen;
     cen.toDest(0, 10);
     cen.toDest(1, 10);
