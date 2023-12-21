@@ -13,7 +13,8 @@ include_directories(
 )
 link_directories(${CMAKE_BINARY_DIR})
 
-add_executable(elector elector.cpp)
+add_executable(elector elector.cpp
+        elector.h)
 
 target_link_libraries(elector ${Poco_LIBRARIES})
 
