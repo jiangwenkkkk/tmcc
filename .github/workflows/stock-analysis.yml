@@ -1,0 +1,30 @@
+name: "📊 A股走势与国际市场分析"
+
+on:
+  schedule:
+    # 北京时间 9:00 AM (UTC 1:00 AM) 工作日
+    - cron: "0 1 * * 1-5"
+    # 北京时间 14:58 (UTC 6:58 AM) 工作日
+    - cron: "58 6 * * 1-5"
+  # 支持手动触发（方便测试）
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run stock analysis
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/stock_analysis.py
