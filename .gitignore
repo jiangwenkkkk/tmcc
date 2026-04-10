@@ -45,3 +45,5 @@ bin
 CMakeLists.txt.user
 *CMakeCache.txt
 cmake-build-debug
+__pycache__/
+*.pyc

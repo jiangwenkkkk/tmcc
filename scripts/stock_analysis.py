@@ -305,9 +305,9 @@ def analyze_market(a_indices, intl_indices, sectors, hot_stocks, rates):
         top = [s for s in sectors if s.get("change_pct_val", 0) > 0.5]
         bottom = [s for s in sectors if s.get("change_pct_val", 0) < -0.5]
         if top:
-            report_lines.append(f"- 🔥 **领涨板块**：{', '.join(s['name'] for s in top[:3])} — 资金流入明显，可关注相关龙头。")
+            report_lines.append(f"- 🔥 **领涨板块**：{', '.join(s['name'] for s in top[:3])} — 资金流入明显, 可关注相关龙头。")
         if bottom:
-            report_lines.append(f"- ❄️ **领跌板块**：{', '.join(s['name'] for s in bottom[-3:])} — 资金流出，短期规避。")
+            report_lines.append(f"- ❄️ **领跌板块**：{', '.join(s['name'] for s in bottom[:3])} — 资金流出，短期规避。")
         if not top and not bottom:
             report_lines.append("- 板块涨跌分化不大，市场处于横盘整理状态。")
         report_lines.append("")
@@ -490,7 +490,12 @@ def ensure_labels_exist():
 def main():
     now = datetime.now(BJT)
     date_str = now.strftime("%Y-%m-%d")
-    time_label = "开盘" if now.hour < 12 else "盘中"
+    if now.hour < 12:
+        time_label = "开盘"
+    elif now.hour >= 14:
+        time_label = "收盘前"
+    else:
+        time_label = "盘中"
 
     print(f"📊 开始获取市场数据... ({date_str} {time_label})")
 
